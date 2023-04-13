@@ -6,7 +6,7 @@ function App() {
   return (
     <Container>
       <Header />
-      <Search hasError onSubmit={() => {}} />
+      <Search hasError={false} onSubmit={() => {}} />
     </Container>
   );
 }
