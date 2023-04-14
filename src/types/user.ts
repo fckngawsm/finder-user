@@ -13,6 +13,7 @@ export type LocalGitHubUser = {
   twitter: string;
   followers: number;
   following: number;
+  created: string;
 };
 
 export type GitHubUser = {
@@ -29,6 +30,7 @@ export type GitHubUser = {
   twitter_username: string;
   followers: number;
   following: number;
+  created_at: string;
 };
 
 export type GitHubUserError = {

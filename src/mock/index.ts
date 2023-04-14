@@ -14,4 +14,5 @@ export const defaultUser: LocalGitHubUser = {
   twitter: "",
   followers: 7,
   following: 7,
+  created: "2022-02-04T10:04:29Z",
 };
