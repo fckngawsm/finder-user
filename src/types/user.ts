@@ -1,16 +1,13 @@
-export type LocalGitHubUser = {
-  repos: number;
+export type LocalGithubUser = {
   login: string;
-  id: number;
   avatar: string;
-  url: string;
   name: string;
-  company: string;
+  company?: string | null;
   blog: string;
   location: string;
-  email: string;
-  bio: string;
-  twitter: string;
+  bio?: string | null;
+  twitter?: string | null;
+  repos: number;
   followers: number;
   following: number;
   created: string;
@@ -20,14 +17,13 @@ export type GitHubUser = {
   login: string;
   id: number;
   avatar_url: string;
-  url: string;
   name: string;
   company: string;
   blog: string;
   location: string;
-  email: string;
   bio: string;
   twitter_username: string;
+  public_repos: number;
   followers: number;
   following: number;
   created_at: string;

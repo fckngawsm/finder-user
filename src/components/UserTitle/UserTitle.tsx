@@ -1,8 +1,8 @@
-import { LocalGitHubUser } from "../../types/user";
+import { LocalGithubUser } from "../../types/user";
 import styles from "./UserTitle.module.scss";
 
 interface UserTitleProps
-  extends Pick<LocalGitHubUser, "name" | "login" | "created"> {}
+  extends Pick<LocalGithubUser, "name" | "login" | "created"> {}
 
 const localDate = new Intl.DateTimeFormat("en-Gb", {
   day: "numeric",

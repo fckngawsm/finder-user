@@ -1,10 +1,10 @@
-import { LocalGitHubUser } from "../../types/user";
+import { LocalGithubUser } from "../../types/user";
 import { UserInfo } from "../UserInfo";
 import { UserStat } from "../UserStat";
 import { UserTitle } from "../UserTitle";
 import styles from "./UserCard.module.scss";
 
-interface UserCardProps extends LocalGitHubUser {}
+interface UserCardProps extends LocalGithubUser {}
 
 export const UserCard = (props: UserCardProps) => {
   return (
